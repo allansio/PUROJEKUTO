@@ -1,4 +1,12 @@
 :root{
+    --forte:#543310;
+    --fraco:#AF8F6F;
+    --medio:#74512D;
+    --leite:#F8F4E1;
+    --preto:#000000;
+    --ado:#0011ff;
+}
 
-    
+body{
+    background-color: var(--fraco);
 }
