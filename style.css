@@ -6,7 +6,14 @@
     --preto:#000000;
     --ado:#0011ff;
 }
-
+header{
+    display: flex;
+    width: 100%;
+    background-color: var(--medio);
+    padding: 1rem;
+    position: relative;
+    justify-content: center;
+}
 body{
     background-color: var(--fraco);
 }
