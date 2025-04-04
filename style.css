@@ -34,4 +34,14 @@ body{
 #menu-toggle {
     display: none;
 }
-.lista
+.lista-vertical{
+    display: none;
+    position: absolute;
+    background-color: var(--fraco);
+    box-shadow: 0 2px 5px var(--medio);
+    min-width: 190px;
+    z-index: 1;
+    left: 1rem;
+    top: 100%;
+}
+.lista-vertical
