@@ -44,4 +44,20 @@ body{
     left: 1rem;
     top: 100%;
 }
-.lista-vertical
+.lista-vertical a{
+    color: var(--preto);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+}
+.lista-vertical a:hover {
+    background-color: var(--fraco);
+}
+#menu-toggle:checked ~ .lista-vertical {
+    display: block;
+}
+#menu-toggle:checked + .botao-variaçao {
+    background-color: var(--preto);
+}
